@@ -48,7 +48,7 @@
             <configuration>  
                 <archive>  
                     <manifest>  
-                        <mainClass>com.javatpoint.AppMain</mainClass>  
+                        <mainClass>com.example.App</mainClass>  
                     </manifest>  
                 </archive>  
             </configuration>  
