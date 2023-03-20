@@ -40,19 +40,24 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-        <plugin>  
-            <!-- Build an executable JAR -->  
-            <groupId>org.apache.maven.plugins</groupId>  
-            <artifactId>maven-jar-plugin</artifactId>  
-            <version>3.1.0</version>  
-            <configuration>  
-                <archive>  
-                    <manifest>  
-                        <mainClass>com.example.App</mainClass>  
-                    </manifest>  
-                </archive>  
-            </configuration>  
-        </plugin>
+        <plugin> 
+
+                <!-- Building an executable jar -->
+
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                  <archive>
+                    <manifest>
+
+                    <!-- give full qualified name of your main class-->
+                      <mainClass>com.example.App</mainClass>
+
+                    </manifest>
+                  </archive>
+                </configuration>
+    </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
